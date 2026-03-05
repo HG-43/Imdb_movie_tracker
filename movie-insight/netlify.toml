@@ -1,11 +1,7 @@
+# This project is optimized for Vercel deployment
+# Visit https://vercel.com to deploy
+
 [build]
 command = "npm run build"
-publish = ".next"
-functions = "netlify/functions"
-
-[[plugins]]
-package = "@netlify/plugin-nextjs"
-
-[build.environment]
-NODE_ENV = "production"
+output = ".next"
 
